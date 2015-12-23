@@ -23,7 +23,7 @@
     NSMutableArray *itemArray = [NSMutableArray array];
     
     int one = 1;
-    int two;
+    int two = 2;
     int three = 3;
     int four = 4;
     
@@ -37,10 +37,13 @@
     item2 = [NSString stringWithFormat:@"%d. Bravo", two];
     item3 = [NSString stringWithFormat:@"%d. Charlie", three];
     item4 = [NSString stringWithFormat:@"%d. Delta", four];
+    item5 = [NSString stringWithFormat:@"%d. Default", four];
+
     
     [itemArray addObject:item1];
     [itemArray addObject:item2];
     [itemArray addObject:item3];
+    [itemArray addObject:item4];
     [itemArray addObject:item5];
     
     NSMutableString *textStrimg;
